@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html assinment</title>
+</head>
+<body>
+ <header>
+    <h1>Dewa Senuki kumarasiri</h1>
+ </header>
+ <nav>
+    <ul>
+        <li><a href="index.html">about me</a> </li>
+        <li> <a href="notes.html">html tags</a> </li>
+    </ul>
+ </nav>
+ <article> 
+    <h2>About me</h2>
+ </article>
+ <p>i'm a student at algonquin college ottawa. I'm from Sri lanka.i came to ottawa last december 10 <sup>th</sup>.i would say i'm an ambibert but sometimes i do love to stay alone. i love designing and coding. Also im a animal lover. i tend to spend more time with dogs and cats as they are really helpfull for my mentel health.This is my frist time in ottawa and my frist ever snow falll.</p> 
+ <br>
+ <p>i love reading books and playing the piano alot. So far i like everthing about canada except the harsh winter. I hope to do well in my classes and <em> archive my goals and dreams.</em> Also im a very friendly person and i love to explore new things and travel around to some countries in the near future. I'm enjoying learning <abbr title="hypertext markup lanuage"> HTML</abbr>
+    <blockquote>Never Give up beacuse Great things take time. -<cite>senuki</cite> </blockquote> <br> 
+<section>
+      <h2>images</h2>
+    <img width="300" height="250"
+    src="images/image02.jpg" alt= "me and pet dog">
+</section>
+<section>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Playing the piano</li>
+        <li>cooking</li>
+    </ul>
+</section>
+<footer>
+    <p>&copy; 2023 senuki k</p>
+</footer>
+</body>
+</html>
