@@ -31,4 +31,8 @@ li a{
 li a {
     border-style:outset;
     background-color: bisque;
+    
+}
+a:hover {
+    background-color: palevioletred;
 }
