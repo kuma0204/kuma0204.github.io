@@ -7,7 +7,7 @@
     <title>html assinment</title>
     <link href="css/main.css" rel="stylesheet">
 </head>
-<body>
+<body class="index.html">
  <header>
     <h1>Dewa Senuki kumarasiri</h1>
  </header>
