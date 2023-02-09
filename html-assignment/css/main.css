@@ -16,7 +16,8 @@ header,footer {
 }
 ul {
  list-style-type: square;
+ 
 }
-li ul:nth-child(2){
- background-color: beige;
+section li {
+    background-color: beige;
 }
