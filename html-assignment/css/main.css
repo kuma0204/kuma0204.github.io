@@ -4,6 +4,11 @@ body {
 }
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
 }
 header,footer {
     background-color: #8DC5DA;
@@ -35,4 +40,7 @@ li a {
 }
 a:hover {
     background-color: palevioletred;
+}
+dl dt{
+    background-color: rgb(168, 211, 211);
 }
