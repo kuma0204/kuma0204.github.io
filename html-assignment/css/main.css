@@ -54,3 +54,8 @@ dl dt{
 dl {
     background-color: rgb(194, 214, 179);
 }
+#my-quote{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(91, 41, 172);
+}
