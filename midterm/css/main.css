@@ -1,0 +1,30 @@
+body{
+    background-color:#aad4cf ;
+}
+.wrapper{
+    margin: 100px auto;
+    width: 1000px;
+    background-color:#dcecea;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+nav ul li {
+    width: 30%;
+    display: inline;
+    margin-right: 30px;
+    border-left: solid;
+    
+    }
+
+li a{ 
+    text-decoration: none;
+    color: black;
+}
+.float {
+    float: left;
+    width: 24%;
+
+}
