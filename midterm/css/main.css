@@ -5,6 +5,14 @@ body{
     margin: 100px auto;
     width: 1000px;
     background-color:#dcecea;
+    
+}
+h1{
+    color:white;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
 }
 nav ul {
     list-style: none;
