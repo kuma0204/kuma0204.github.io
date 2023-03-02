@@ -1,12 +1,14 @@
 body{
     background-color:#aad4cf ;
 }
+
 .wrapper{
-    margin: 100px auto;
+    margin: 100px auto ;
     width: 1000px;
     background-color:#dcecea;
     
 }
+
 h1{
     color:white;
     position: absolute;
@@ -26,7 +28,19 @@ nav ul li {
     border-left: solid;
     
     }
-
+     div{
+        width: 320px;
+        padding: 5px;
+        border: 2px;
+        margin: 0;
+    }  
+    /* created a class for the form in order to add a box arounf the form */
+.contactbox{
+    border-style: solid;
+    border-width: 1px;
+    width: auto;
+    height: auto;
+}
 li a{ 
     text-decoration: none;
     color: black;
@@ -36,9 +50,10 @@ li a{
     width: 25%;
 
 } 
-/* #starfish{
-    float: left;
-    width: 27%; */
+ /* #starfish{
+    flo;
+    width: 27%; 
+ } */
 
     
 
