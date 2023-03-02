@@ -1,14 +1,14 @@
 body{
     background-color:#aad4cf ;
 }
-
+ /* adds the id as the wrapper to specifiy it */
 .wrapper{
     margin: 100px auto ;
     width: 1000px;
     background-color:#dcecea;
     
 }
-
+/* made the h2 text align center with right 3% so its perfecrtly centered and top 35%  */
 h1{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -24,6 +24,7 @@ nav ul {
     display: flex;
     
 }
+/* adds the width of 30% for each nav in order to spread them which makes the nav in the same line with a space in between */
 nav ul li {
     width: 30%;
     display: inline;
@@ -31,11 +32,18 @@ nav ul li {
     border-left: solid;
     
     }
+    /* adds the id of the image to css in order to speacify it only.  */
 .starfish{
     float: left;
     margin: 3px;
 
 }
+/* made the image float to the left with a margin of 3px so the text can fit around the image well and increaed the size of the font in the paragraph so it wraps around the image perfectly */
+.float {
+    float: left;
+    width: 25%;
+
+} 
 p{
     text-align: justify;
     font-size: 17px;
@@ -48,6 +56,7 @@ p{
         margin: 0;
     }  
     /* created a class for the form in order to add a box arounf the form */
+    /* created the box with auto width and height so it fits accordinf to the form and added a 1px border width since its thinner and similar   */
 .contactbox{
     border-style: solid;
     border-width: 1px;
@@ -58,13 +67,8 @@ li a{
     text-decoration: none;
     color: black;
 }
-.float {
-    float: left;
-    width: 25%;
 
-} 
-
-
-footer{
-    text-align:right;
+/* made the footer p set to the right of the page */
+footer p {
+    text-align: right;
 }
