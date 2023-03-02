@@ -59,12 +59,12 @@ p{
     font-size: 16px;
     
 }
-     div{
+ div{
         width: 320px;
         padding: 5px;
         border: 2px;
         margin: 0;
-    }  
+}  
     /* created a class for the form in order to add a box arounf the form */
     /* created the box with auto width and height so it fits accordinf to the form and added a 1px border width since its thinner and similar   */
 .contactbox{
