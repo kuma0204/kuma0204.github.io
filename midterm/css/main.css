@@ -11,7 +11,7 @@ body{
 /* made the h2 text align center with right 3% so its perfecrtly centered and top 35%  */
 h1{
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 45px;
     position: absolute;
     top: 35%;
@@ -19,9 +19,13 @@ h1{
     width: 100%;
     text-align: center;
 }
+h1,h2,h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 nav ul {
     list-style: none;
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
     
 }
 /* adds the width of 30% for each nav in order to spread them which makes the nav in the same line with a space in between */
@@ -30,6 +34,7 @@ nav ul li {
     display: inline;
     margin-right: 30px;
     border-left: solid;
+    
     
     }
     /* adds the id of the image to css in order to speacify it only.  */
@@ -44,9 +49,13 @@ nav ul li {
     width: 25%;
 
 } 
+.factlist{
+    font-family: Arial, Helvetica, sans-serif;
+}
 p{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    font-size: 17px;
+    font-size: 16px;
     
 }
      div{
