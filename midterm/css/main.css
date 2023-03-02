@@ -31,6 +31,16 @@ nav ul li {
     border-left: solid;
     
     }
+.starfish{
+    float: left;
+    margin: 3px;
+
+}
+p{
+    text-align: justify;
+    font-size: 17px;
+    
+}
      div{
         width: 320px;
         padding: 5px;
