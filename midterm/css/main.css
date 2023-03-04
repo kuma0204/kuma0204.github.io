@@ -34,9 +34,11 @@ nav ul li {
     width: 30%;
     display: inline;
     margin-right: 30px;
-    border-left: solid;
-    
-    
+    border-right: 1px solid #000 ;
+  }
+  /* added an id to the nav ul so i can specifiy the last child border to be none in the nab bar */
+ #nav :last-child{
+       border-right: none; 
     }
     /* adds the id of the image to css in order to speacify it only.  */
 .starfish{
