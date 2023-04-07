@@ -60,3 +60,6 @@ body{
 nav a{
     color:#c78c06;
 }
+.fa-solid{
+    display: flex;
+}
