@@ -50,6 +50,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 
 }
+.container-all{
+	max-width: 1200px;
+    margin: 0 auto;
+}
 .img-container{
     background-color:#c78c06;
     
@@ -59,7 +63,45 @@ body{
 }
 nav a{
     color:#c78c06;
+	display: flex;
+	justify-items: center;
+	text-decoration: none;
+	text-align: center;
+	
 }
-.fa-solid{
+nav ul li{
+	display: inline;
+	list-style: none;
+    text-align: center;
+	margin-right: 30px;
+    border-right: 1px solid;
+	text-align: center;
+}
+.fa-magnifying-glas{
     display: flex;
+	
+}
+#banner{
+	position: relative;
+	margin: auto;
+	width: 1200px;
+	height: 700px;
+	
+}
+.banner-conatiner{
+	position: relative;
+	max-width: 1200px;
+}
+h1{
+    text-align: center;
+    top:50%;
+    left: 50%;
+    position: absolute;
+	color: black;
+}
+.banner-p{
+	position:absolute;
+	top: 90%;
+	bottom: 60%;
+	margin:auto;
 }
