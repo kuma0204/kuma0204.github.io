@@ -93,7 +93,7 @@ nav ul li{
 	max-width: 1200px;
 
 }
-h1{
+/* h1{ */
     /* text-align: center;
     top:50%;
     left: 50%;
@@ -105,7 +105,7 @@ h1{
 	/* position: absolute;
     top: 50%;
     left: 50%; */
-}
+/* } */
 .header{
 	display: inline-block;
     vertical-align: top;
