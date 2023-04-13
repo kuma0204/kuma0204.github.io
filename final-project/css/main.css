@@ -138,14 +138,44 @@ h1{
 }
 .aboutus{
 	background-color:  #ffe6ac;
-
+    position: relative;
 
 }   
 .table{
 	/* max-width: fit-content; */
 	/* float:right; */
-    width: 80%;
-    height: auto;
-	;
-
+    max-width: 90%;
+    max-height: 90%;
+	display: block;
+	top: 50% ;
+	left: 50%;
+}
+h2{
+	font-weight: bold;
+	font-size: 34px;
+}
+.digital-t{
+	background-color: #ffe6ac;
+}
+.button2, .button3, .button4,.button5,.button6{
+	background-color: #222;
+	color: white;
+	padding: 20px 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
+.button7{
+	background-color: rgba(0, 0, 0, 0.4);
+	border: 4px ;
+	border-color: #c78c06;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.send{
+	background-color: #222;
+	color: #c78c06;
 }
