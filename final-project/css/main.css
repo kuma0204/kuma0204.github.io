@@ -138,17 +138,23 @@ nav ul li{
 }
 .aboutus{
 	background-color:  #ffe6ac;
-    position: relative;
+    /* position: relative; */
+	width:min-content;
+	height: auto;
+	padding: 10px;
 
 }   
-.table{
+#image-2{
 	/* max-width: fit-content; */
 	/* float:right; */
-    max-width: 90%;
+    /* max-width: 90%;
     max-height: 90%;
 	display: block;
 	top: 50% ;
-	left: 50%;
+	left: 50%; */
+	display: flex;
+	align-items: center;
+	width:500px;
 }
 h2{
 	font-weight: bold;
@@ -189,15 +195,31 @@ h2{
 }
 .marketing{
 	background-color: #ffe6ac;
+	width:min-content;
+	height: auto;
+
+}
+#image-3,#image-4,#image-5,#image-6,#image-7{
+	display: flex;
+	align-items:start;
+	width:600px;
+	
 }
 .video{
 	background-color: #ffe6ac;
+	width:min-content;
+	height: auto;
+	/* padding-bottom: 10px; */
 }
 .web{
 	background-color: #ffe6ac;
+	width:min-content;
+	height: auto;
 }
 .Print{
 	background-color: #ffe6ac;
+	width:min-content;
+	height: auto;
 }
 .john-container{
 	background-color: #ffe6ac;
