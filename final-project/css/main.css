@@ -157,6 +157,14 @@ h2{
 .digital-t{
 	background-color: #ffe6ac;
 }
+.button1{
+	background-color:#c78c06;
+	color:black;
+	padding: 20px 40px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+}
 .button2, .button3, .button4,.button5,.button6{
 	background-color: #222;
 	color: white;
@@ -178,4 +186,45 @@ h2{
 .send{
 	background-color: #222;
 	color: #c78c06;
+}
+.marketing{
+	background-color: #ffe6ac;
+}
+.video{
+	background-color: #ffe6ac;
+}
+.web{
+	background-color: #ffe6ac;
+}
+.Print{
+	background-color: #ffe6ac;
+}
+.john-container{
+	background-color: #ffe6ac;
+}
+.bob-container{
+	background-color: #ffe6ac;
+}
+h3{
+	font-weight: bold;
+	font-size: 24px;
+}
+table, th, td {
+	border: 1px solid;
+	padding: 20px 40px;
+	width: 500px;
+}
+.days{
+	background-color: #ffe6ac;
+}
+iframe{
+	border: 0;
+    width: 500px;
+    height: 250px;
+}
+footer{
+	background-color: #222;
+	color:#c78c06;
+	padding: 20px 50px;
+	text-align: start;
 }
