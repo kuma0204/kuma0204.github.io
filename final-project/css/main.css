@@ -89,19 +89,63 @@ nav ul li{
 	
 }
 .banner-conatiner{
-	position: relative;
+	display: inline-block;
 	max-width: 1200px;
+
 }
 h1{
-    text-align: center;
+    /* text-align: center;
     top:50%;
     left: 50%;
     position: absolute;
 	color: black;
+	display:flex;
+	justify-content: center;
+	align-items: center; */
+	/* position: absolute;
+    top: 50%;
+    left: 50%; */
+}
+.header{
+	display: inline-block;
+    vertical-align: top;
 }
 .banner-p{
 	position:absolute;
 	top: 90%;
 	bottom: 60%;
 	margin:auto;
+	/* margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.9; */
+	/* margin: 5%;
+    font-weight: bold;
+    color: #000000; */
+	/* background-color: #000;
+    color: #fff;
+    opacity: .5;
+	color: #000; */
+	/* position: fixed; */
+    /* top: 20px;
+    left: 20px; */
+    background-color: rgba(0, 0, 0, 0.6);
+	padding: 120px;
+	max-width: 1200px;
+	height: auto;
+	color: white;
+	font-size:20px;
+}
+.aboutus{
+	background-color:  #ffe6ac;
+
+
+}   
+.table{
+	/* max-width: fit-content; */
+	/* float:right; */
+    width: 80%;
+    height: auto;
+	;
+
 }
