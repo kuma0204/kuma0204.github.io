@@ -85,27 +85,28 @@ nav ul li{
 	position: relative;
 	margin: auto;
 	width: 1200px;
-	height: 700px;
+	height: auto;
 	
 }
+h1{
+	display:inline-block;
+	position: absolute;
+    top: 35%;
+    right: 3%;
+    width: 100%;
+    text-align: center;
+	/* position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; */
+}
 .banner-conatiner{
-	display: inline-block;
-	max-width: 1200px;
+	/* display: inline-block;
+	max-width: 1200px; */
+	position: relative;
+    width: 100%;
 
 }
-/* h1{ */
-    /* text-align: center;
-    top:50%;
-    left: 50%;
-    position: absolute;
-	color: black;
-	display:flex;
-	justify-content: center;
-	align-items: center; */
-	/* position: absolute;
-    top: 50%;
-    left: 50%; */
-/* } */
 .header{
 	display: inline-block;
     vertical-align: top;
@@ -131,10 +132,12 @@ nav ul li{
     left: 20px; */
     background-color: rgba(0, 0, 0, 0.6);
 	padding: 120px;
-	max-width: 1200px;
+	max-width:fit-content;
 	height: auto;
 	color: white;
 	font-size:20px;
+	padding: 150px;
+	
 }
 .aboutus{
 	background-color:  #ffe6ac;
@@ -221,11 +224,34 @@ h2{
 	width:min-content;
 	height: auto;
 }
+.vision{
+	max-width: 1200px;
+	height:min-content;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+    text-align: center;
+    color: white;
+}
+.vision-text{
+	position: absolute;
+    top: 8px;
+    left: 16px;
+	/* position: absolute;
+	top: 50%;
+	left: 50%; */
+}
 .john-container{
 	background-color: #ffe6ac;
 }
 .bob-container{
 	background-color: #ffe6ac;
+}
+.wrapper{
+	/* display: block;
+	max-width: 100% */
+	width: 100vw;
+    margin-left: calc(50% - 50vw);
 }
 h3{
 	font-weight: bold;
