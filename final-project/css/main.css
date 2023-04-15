@@ -163,6 +163,11 @@ hr.style-1{
 	height: auto;
 	padding-bottom: 10px;
 }
+.grid{
+	/* display: grid; */
+	display: block;
+	grid-gap: 15px ;
+}
 .button1{
 	background-color:#c78c06;
 	color:black;
@@ -208,8 +213,9 @@ hr.style-1{
 	padding-bottom: 10px;
 }
 #image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
-	
+	display: block;
 	width: 100%;
+	max-width: 100%;
 	height: 100%;
 }
 p{
@@ -220,6 +226,7 @@ p{
 	max-width: 100%;
 	height: auto;
 	padding-bottom: 10px;
+
 }
 .web{
 	background-color: #ffe6ac;
@@ -323,7 +330,66 @@ nav ul li{
   font-size: 17px;
 } */
 }
-.digital-t{
-	
-  }
+#image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
+/* display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; */
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+ 
+}
+.grid{
+	/* display: flex;
+ flex-wrap: wrap; */
+ /* display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ grid-template-rows: 1fr 1fr; */
+ /* display:grid;
+ grid-template-columns: auto autoS;
+ grid-template-rows: auto; */
+  /* display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  width: 100%; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.digital-t,.marketing{
+	display: grid;
+}
+.video,.web,.Print{
+	display: grid;
+	grid-row: 2/3;
+
+}
+.grid .digital-t{
+	grid-column: 3/6;
+	grid-row: 1/2;
+	/* grid-row: 1 / 2;
+	grid-column: 3/ 4; */
+	/* grid-column-start: 1;
+	grid-column-end: 3; */
+
+}
+.grid .marketing{
+	grid-column: 3/3;
+	grid-row: 1 / 2;
+  grid-column: 4 / 6; 
+    /* grid-column-start: 4;
+	grid-column-end: 5; */
+	/* grid-row: 1; */
+}
+.video{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.wrapper{
+	/* max-width: fit-content;
+	width: 100vw; */
+	/* margin-left:0; */
+	width: 1500px;
+	height: 400px;
+	margin-left: calc(0);
+}
 }
