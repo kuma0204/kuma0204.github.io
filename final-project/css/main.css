@@ -334,6 +334,10 @@ nav ul li{
   font-size: 17px;
 } */
 }
+/* .container-all{
+	max-width: 1500px;;
+    margin: 0 auto;
+} */
 .aboutus{
 	background-color: #ffe6ac;
 	width: 100%;
@@ -439,5 +443,17 @@ max-width: 100%;
 .text-1{
 	flex-grow: 1;
 
+}
+.flex-conatiner{
+	display: grid;
+	/* align-items:center; */
+}
+.contact-f{
+	display: grid;
+	grid-template-columns: span 1;
+}
+.Hours{
+	display: grid;
+	
 }
 }
