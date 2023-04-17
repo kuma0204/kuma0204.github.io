@@ -66,6 +66,9 @@ nav a{
     color:#c78c06;
 	text-decoration: none;
 }
+.home-nav{
+	/* padding-top: 10%; */
+}
 nav ul li{
 	display: inline;
 	display: flex;
@@ -205,6 +208,7 @@ hr.style-1{
     display: inline-block;
     font-size: 16px;
 }
+	
 .send{
 	background-color: #222;
 	color: #c78c06;
@@ -307,26 +311,51 @@ footer{
 		max-width: 100%;
 }
 .container{
-    background-color:transparent ;
+    /* background-color:transparent ; */
+	
 	padding: 0;
+	/* float: right; */
+}
+.img-container{
+	float: left;
+	background-color: transparent;
+}
+.logo{
+	float: left;
+	
+}
+.fa-fa-search{
+    display: flex;
 }
 nav ul li{
 	/* display: inline;
     padding: 40px; */
-	float: left;
-	display: block;
+	/* float: left; */
+	display: inline-block;
 	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
-	
+	padding-bottom: 50px;
+
+}
+.home-nav{
+	padding: 15px 15px 15px;
+	background-color: #c78c06;
+	color: black;
+}
+nav a{
+     padding-top: 30px;
 }
 .search{
 	width: 15%;
-	position: relative;
-	display: flex;
+	/* position: relative; */
+	right: 7%;
+	/* display: inline-block; */
 	float: right;
+	
+	
   /* padding: 6px;
   border: none;
   margin-top: 8px;
@@ -373,6 +402,7 @@ max-width: 100%;
 	grid-gap: 10px;
     grid-template-rows: 1fr 1fr;
 	display: grid;
+	width: auto;
 }
 .digital-t{
 	display: grid;
@@ -446,14 +476,15 @@ max-width: 100%;
 }
 .flex-conatiner{
 	display: grid;
-	/* align-items:center; */
+	align-items:center;
 }
 .contact-f{
-	display: grid;
+	display: flex;
 	grid-template-columns: span 1;
+	flex-grow: 1;
 }
-.Hours{
-	display: grid;
+/* .Hours{
+	display: flex;
 	
-}
+} */
 }
