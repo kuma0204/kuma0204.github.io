@@ -339,51 +339,112 @@ nav a{
 	height: auto;
 	padding: 10px;
 }
+.button2, .button3, .button4,.button5,.button6{
+	text-align: center;
+	position: relative;
+	left: 30%;
+    
+}
 #image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
-    display:grid;
-    max-width: 100%;
+    /* display:grid; */
+	/* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "a a a b b b"
+    "c c d d e e";
+	align-items: center;
+	width:50%; */
+    width:600px;
+	height: 250px;
+    /* max-width: 100%; */
 	/* using max width 100% so it fits the parent container */
 }
 .grid{
-	grid-template-columns: repeat(2, 1fr);
+	/* grid-template-columns: repeat(2, 1fr);
 	grid-gap: 5px;
     grid-template-rows: 1fr 1fr;
 	display: grid;
 	width: 500px;
-	grid-column-gap: 5px;
+	grid-column-gap: 5px; */
+	display: grid;
+	width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: 
+    "a a a b b b"
+    "c c d d e e";
+    /* gap: 10px; */
 }
 .digital-t{
-	display: grid;
+	/* display: grid;
 	grid-column: 1 / span 1;
-	width: 500px;
+	width: 500px; */
+	grid-area: a;
+	text-align:start;
+	width: 600px;
+	height: 500px;
+	
 }
 .marketing{
-	display: grid;
+	/* display: grid;
 	grid-column: 2 / span 1;
 	grid-row: 1/ span 1;
-	width: 500px;
+	width: 500px; */
+	grid-area: b;
+	text-align:start;
+	width: 600px;
+	height: 500px;
 }
 .video{
-     display: grid;
+     /* display: grid;
 	 grid-column: 1 / span 1;
 	 grid-row: 2 / span 1;
+	 width: 400px; */
+	 grid-area: c ;
+	 text-align:start;
 	 width: 400px;
+	 height: 500px;
 }
+
 .web{
-	display: grid;
+	/* display: grid;
 	grid-column: 3/ span 1;
 	grid-row: 2 / span 3;
+	width: 400px; */
+	grid-area: d ;
+	text-align:start;
 	width: 400px;
+	 height: 500px;
 }
 .Print{
-	display: grid;
+	/* display: grid;
 	grid-column: 2 / span 1;
 	grid-row: 2 /span 1 ;
+	width: 400px; */
+	grid-area: e ;
+	text-align:start;
 	width: 400px;
+	 height: 500px;
+}
+/* .wrapper{
+	max-width:max-content;
+	width: 100%;
+    margin-right:60%;
+	height: 40%;
+
+} */
+.vision{
+	background-image: url(images/vision.jpg);
+	/* height: 100vh; */
+	height: 500px;
+	max-width: max-content;
+	background-position: center;
+	margin-left: 0%;
+	/* padding-right: 80%; */
 }
 .flexbox{
 	display: flex;
 	align-items: center;
+	width:fit-content;
 }
 .text-1{
 	flex-grow: 1;
