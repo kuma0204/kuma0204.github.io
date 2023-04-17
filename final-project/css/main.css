@@ -48,7 +48,6 @@ table {
 }
 body{
     font-family: 'Open Sans', sans-serif;
-
 }
 .container-all{
 	max-width: 1200px;
@@ -56,7 +55,6 @@ body{
 }
 .img-container{
     background-color:#c78c06;
-    
 }
 .container{
     background-color:#222 ;
@@ -65,9 +63,6 @@ body{
 nav a{
     color:#c78c06;
 	text-decoration: none;
-}
-.home-nav{
-	/* padding-top: 10%; */
 }
 nav ul li{
 	display: inline;
@@ -80,33 +75,27 @@ nav ul li{
 	border-right: 1px ;
 }
 #banner{
-	
 	margin: auto;
 	max-width:  100%;
 	height: auto;
-	
 }
 .heading{
 	position: absolute;
-	/* top: 80%; */
 	left: 20%;
 	text-align: start;
 	font-size: 40px;
 	font-weight: bold;
 	color: white;
 	display:inline-block;
-	/* padding: 100px; */
 }
 .banner-conatiner{
 	max-width:fit-content;
 	position: relative;
     margin: 0 auto;
-	
 }
 .header{
 	display: inline-block;
     vertical-align: top;
-	
 }
 .banner-p{
 	position:absolute;
@@ -116,9 +105,9 @@ nav ul li{
 	height: auto;
 	color: white;
 	font-size:20px;
-	/* padding: 150px; */
 	background-image: url("images/main-banner.jpg") ;
 	background-color: rgba(0, 0, 0, 0.6);
+	/* reduced the opacity 0.6 of the black so its transparent on the image */
 	max-width: 1200px;
     padding-bottom: 300px;
 	text-align:end;
@@ -133,9 +122,7 @@ nav ul li{
 	max-width: 100%;
 	height: auto;
 	padding: 10px;
-
 } 
-
 .search{
 	width: 95%;
 	position: relative;
@@ -158,7 +145,7 @@ h3{
 h5{
 	padding: 10px;
 }
-/* style for the hr line in html */
+    /* style for the hr line in html */
 hr.style-1{
 	border-top: 2px solid #c78c06;
 }
@@ -182,10 +169,8 @@ hr.style-1{
 	font-size: 16px;
 	display: flex;
 	padding-left: 5%;
-	
-
 }
-/* adding color and sizing the buttons at once */
+    /* adding color and sizing the buttons at once */
 .button2, .button3, .button4,.button5,.button6{
 	background-color: #222;
 	color: white;
@@ -196,7 +181,6 @@ hr.style-1{
 	padding-left: 10px;
 	border-style: none;
 	padding-left: 5%;
-	
 }
 .button7{
 	background-color: rgba(0, 0, 0, 0.4);
@@ -208,7 +192,6 @@ hr.style-1{
     display: inline-block;
     font-size: 16px;
 }
-	
 .send{
 	background-color: #222;
 	color: #c78c06;
@@ -225,6 +208,7 @@ hr.style-1{
 	max-width: 100%;
 	height: 100%;
 }
+    /* added 10px padding so the text is centered  */
 p{
 	padding: 10px;
 }
@@ -233,7 +217,6 @@ p{
 	max-width: 100%;
 	height: auto;
 	padding-bottom: 10px;
-
 }
 .web{
 	background-color: #ffe6ac;
@@ -248,6 +231,7 @@ p{
 	height: auto;
 	padding-bottom: 10px;
 }
+    /* bleed */
 .vision{
 	max-width: 1200px;
 	height:min-content;
@@ -290,6 +274,7 @@ table, th, td {
 	padding: 20px 40px;
 	width: 500px;
 }
+    /* adding color only to two coloums in the table by specifiying it in a class */
 .days{
 	background-color: #ffe6ac;
 }
@@ -311,10 +296,7 @@ footer{
 		max-width: 100%;
 }
 .container{
-    /* background-color:transparent ; */
-	
 	padding: 0;
-	/* float: right; */
 }
 .img-container{
 	float: left;
@@ -328,9 +310,6 @@ footer{
     display: flex;
 }
 nav ul li{
-	/* display: inline;
-    padding: 40px; */
-	/* float: left; */
 	display: inline-block;
 	color: black;
 	text-align: center;
@@ -350,23 +329,9 @@ nav a{
 }
 .search{
 	width: 15%;
-	/* position: relative; */
 	right: 7%;
-	/* display: inline-block; */
 	float: right;
-	
-	
-  /* padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-} */
 }
-/* .container-all{
-	max-width: 1500px;;
-    margin: 0 auto;
-} */
 .aboutus{
 	background-color: #ffe6ac;
 	width: 100%;
@@ -374,14 +339,9 @@ nav a{
 	padding: 10px;
 }
 #image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
-/* display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr; */
-display:grid;
-/* grid-template-columns: repeat(3,1fr);
-grid-template-rows: repeat(3,1fr); */
-max-width: 100%;
-
- 
+    display:grid;
+    max-width: 100%;
+	/* using max width 100% so it fits the parent container */
 }
 .grid{
 	grid-template-columns: repeat(2, 1fr);
@@ -396,40 +356,17 @@ max-width: 100%;
 	grid-column: 1 / span 1;
 	width: 500px;
 }
-/* .digital-t,.marketing{
-	display: grid;
-}
-.video,.web,.Print{
-	display: grid;
-	grid-row: 2/3;
-}
-.grid .digital-t{
-	grid-column: span 1/3;
-	grid-row: 1/2; */
-	/* grid-row: 1 / 2;
-	grid-column: 3/ 4; */
-	/* grid-column-start: 1;
-	grid-column-end: 3; */
-
 .marketing{
 	display: grid;
 	grid-column: 2 / span 1;
 	grid-row: 1/ span 1;
 	width: 500px;
-	/* grid-column: 3/6;
-	grid-row: 1 / 2; */
-  /* grid-column: 4 / 6;  */
-    /* grid-column-start: 4;
-	grid-column-end: 5; */
-	/* grid-row: 1; */
 }
 .video{
      display: grid;
 	 grid-column: 1 / span 1;
 	 grid-row: 2 / span 1;
 	 width: 400px;
-	/* grid-column-start: 1;
-	grid-column-end: 2; */
 }
 .web{
 	display: grid;
@@ -443,28 +380,14 @@ max-width: 100%;
 	grid-row: 2 /span 1 ;
 	width: 400px;
 }
-.wrapper{
-	/* max-width: fit-content;
-	width: 100vw; */
-	/* margin-left:0; */
-	/* width: 1500px;
-	height: 400px;
-	margin-left: calc(0);
-} */
-
-}
 .flexbox{
 	display: flex;
 	align-items: center;
 }
 .text-1{
 	flex-grow: 1;
-
 }
 .conatiner-3{
-	/* display: grid;
-	grid-template-columns: repeat(2);
-	grid-template-rows: 2; */
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 10px;
     grid-template-rows: 1fr 1fr;
@@ -491,7 +414,6 @@ div textarea  {
 	grid-column: 1/2;
 	grid-row: 2/ span 1;
 	width: 500px;
-	
 }
 .map{
 	display: grid;
