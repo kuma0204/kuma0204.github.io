@@ -70,7 +70,6 @@ nav a{
 nav ul li{
 	display: inline;
 	display: flex;
-	flex-direction: column;
 	font-size: 18px;
 	margin: 30px;
 	padding-left:250px;
@@ -86,7 +85,7 @@ nav ul li{
 	position: absolute;
 	left: 20%;
 	text-align: start;
-	font-size: 40px;
+	font-size: 45px;
 	font-weight: bold;
 	color: white;
 	display:inline-block;
@@ -99,11 +98,11 @@ nav ul li{
 .header{
 	display: inline-block;
     vertical-align: top;
+	
 }
 .banner-p{
 	position:absolute;
-	top: 100%;
-	bottom: 90%;
+	top: 500px;
 	margin:auto;
 	height: auto;
 	color: white;
@@ -112,8 +111,9 @@ nav ul li{
 	background-color: rgba(0, 0, 0, 0.6);
 	/* reduced the opacity 0.6 of the black so its transparent on the image */
 	max-width: 1200px;
-    padding-bottom: 300px;
-	text-align:end;
+    padding-bottom: 80px;
+	text-align:start;
+	display: block;
 }
 .banner-p p{
 	text-align: center;
@@ -127,9 +127,7 @@ nav ul li{
 	padding: 10px;
 } 
 .search{
-	width: 95%;
-	position: relative;
-	display: flex;
+	width: 90%;
 }
 #image-2{
 	display: flex;
@@ -139,7 +137,7 @@ nav ul li{
 }
 h2{
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 44px;
 	padding: 10px;
 }
 h3{
@@ -165,7 +163,7 @@ hr.style-1{
 }
 .button1{
 	background-color:#c78c06;
-	color:black;
+	color:#222;
 	padding: 20px 40px;
 	text-align: center;
 	position:relative;
@@ -214,6 +212,7 @@ hr.style-1{
     /* added 10px padding so the text is centered  */
 p{
 	padding: 10px;
+	font-size: 17px;
 }
 .video{
 	background-color: #ffe6ac;
@@ -243,12 +242,16 @@ p{
 	position: relative;
     text-align: center;
     color: white;
+	
 }
 .vision-text{
 	position: absolute;
     top: 80px;
     left: 16px;
 	text-align:start;
+}
+#vision-header{
+	font-size: 30px;
 }
 .john-container{
 	background-color: #ffe6ac;
@@ -267,10 +270,13 @@ p{
 }
 h3{
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 2rem;
 }
 h5{
 	font-weight:600;
+}
+textarea{
+	width: 100%;
 }
 table, th, td {
 	border: 1px solid;
@@ -307,10 +313,6 @@ footer{
 }
 .logo{
 	float: left;
-	
-}
-.fa-fa-search{
-    display: flex;
 }
 nav ul li{
 	display: inline-block;
@@ -344,42 +346,22 @@ nav a{
 .button2, .button3, .button4,.button5,.button6{
 	text-align: center;
 	position: relative;
-	left: 30%;
-    
+	left: 30%; 
 }
 #image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
-    /* display:grid; */
-	/* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: 
-    "a a a b b b"
-    "c c d d e e";
-	align-items: center;
-	width:50%; */
+
     width:600px;
 	height: 250px;
-    /* max-width: 100%; */
-	/* using max width 100% so it fits the parent container */
 }
 .grid{
-	/* grid-template-columns: repeat(2, 1fr);
-	grid-gap: 5px;
-    grid-template-rows: 1fr 1fr;
-	display: grid;
-	width: 500px;
-	grid-column-gap: 5px; */
 	display: grid;
 	width: 100%;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: 
     "a a a b b b"
     "c c d d e e";
-    /* gap: 10px; */
 }
 .digital-t{
-	/* display: grid;
-	grid-column: 1 / span 1;
-	width: 500px; */
 	grid-area: a;
 	text-align:start;
 	width: 600px;
@@ -387,20 +369,12 @@ nav a{
 	
 }
 .marketing{
-	/* display: grid;
-	grid-column: 2 / span 1;
-	grid-row: 1/ span 1;
-	width: 500px; */
 	grid-area: b;
 	text-align:start;
 	width: 600px;
 	height: 500px;
 }
 .video{
-     /* display: grid;
-	 grid-column: 1 / span 1;
-	 grid-row: 2 / span 1;
-	 width: 400px; */
 	 grid-area: c ;
 	 text-align:start;
 	 width: 400px;
@@ -408,40 +382,24 @@ nav a{
 }
 
 .web{
-	/* display: grid;
-	grid-column: 3/ span 1;
-	grid-row: 2 / span 3;
-	width: 400px; */
 	grid-area: d ;
 	text-align:start;
 	width: 400px;
 	 height: 500px;
 }
 .Print{
-	/* display: grid;
-	grid-column: 2 / span 1;
-	grid-row: 2 /span 1 ;
-	width: 400px; */
 	grid-area: e ;
 	text-align:start;
 	width: 400px;
 	 height: 500px;
 }
-/* .wrapper{
-	max-width:max-content;
-	width: 100%;
-    margin-right:60%;
-	height: 40%;
-
-} */
 .vision{
 	background-image: url(images/vision.jpg);
-	/* height: 100vh; */
 	height: 500px;
 	max-width: max-content;
 	background-position: center;
 	margin-left: 0%;
-	/* padding-right: 80%; */
+	
 }
 .flexbox{
 	display: flex;
@@ -481,9 +439,8 @@ div textarea  {
 }
 .map{
 	display: grid;
-	/* float: left; */
 	grid-column: 2/ span 2;
 	grid-row: 1;
-	/* padding-left: 85px; */
+	
 }
 }
