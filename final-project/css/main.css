@@ -48,10 +48,12 @@ table {
 }
 body{
     font-family: 'Open Sans', sans-serif;
+	
 }
-.container-all{
+.wrapper-1{
 	max-width: 1200px;
     margin: 0 auto;
+	
 }
 .img-container{
     background-color:#c78c06;
