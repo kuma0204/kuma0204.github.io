@@ -412,6 +412,9 @@ nav a{
 	margin-left: 0%;
 	
 }
+.wrapper{
+	color: white;
+}
 /* using flex box to alighn the containers in center */
 .flexbox{
 	display: flex;
