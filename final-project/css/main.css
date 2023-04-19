@@ -50,6 +50,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 	
 }
+/* adds a max width so all the content inside it fits under 1200px */
 .wrapper-1{
 	max-width: 1200px;
     margin: 0 auto;
@@ -67,6 +68,7 @@ nav a{
     color:#c78c06;
 	text-decoration: none;
 }
+/* adds display inline to align nav horizontally */
 nav ul li{
 	display: inline;
 	display: flex;
@@ -126,6 +128,7 @@ nav ul li{
 	height: auto;
 	padding: 10px;
 } 
+/* giving the search bar a size so it fits the width */
 .search{
 	width: 90%;
 }
@@ -226,7 +229,6 @@ p{
 	height: auto;
 	padding-bottom: 10px;
 }
-
 .Print{
 	background-color: #ffe6ac;
 	max-width: 100%;
@@ -237,13 +239,12 @@ p{
 .wrapper{
 	max-width: 1200px;
 	height:min-content;
-	/* margin-left: auto;
-	margin-right: auto; */
 	position: relative;
     text-align: center;
     color: white;
 	
 }
+/* using position absolute to place the texts on top of the image */
 .vision-text{
 	position: absolute;
     top: 80px;
@@ -264,17 +265,17 @@ p{
 	height: auto;
 }
 .vision{
-	/* width: 100vw;
-    margin-left: calc(50% - 50vw); */
 	height: 550px;
 }
 h3{
 	font-weight: bold;
 	font-size: 2rem;
 }
+/* font weight to make font bolder */
 h5{
 	font-weight:600;
 }
+/* gives a 100 width to the text area in th form  */
 textarea{
 	width: 100%;
 }
@@ -307,6 +308,7 @@ footer{
 .container{
 	padding: 0;
 }
+/* removes color by using transparent */
 .img-container{
 	float: left;
 	background-color: transparent;
@@ -324,6 +326,7 @@ nav ul li{
 	padding-bottom: 50px;
 
 }
+/* adds padding so its centered */
 .home-nav{
 	padding: 15px 15px 15px;
 	background-color: #c78c06;
@@ -351,14 +354,12 @@ nav a{
 	position: relative;
 	left: 30%; 
 }
+/* specifiying all the images at once  */
 #image-3,#image-4,#image-5,#image-6,#image-7,#image-8,#image-9{
-
     width:600px;
 	height: 250px;
 }
-.vision{
-	/* float: left; */
-}
+/* creates a 6 grid column so the 5 containers fit in it */
 .grid{
 	display: grid;
 	width: 100%;
@@ -367,6 +368,7 @@ nav a{
     "a a a b b b"
     "c c d d e e";
 }
+/* adds with to the wrappers so the images can fit to its content */
 .digital-t{
 	grid-area: a;
 	text-align:start;
@@ -386,7 +388,6 @@ nav a{
 	 width: 400px;
 	 height: 500px;
 }
-
 .web{
 	grid-area: d ;
 	text-align:start;
@@ -407,6 +408,7 @@ nav a{
 	margin-left: 0%;
 	
 }
+/* using flex box to alighn the containers in center */
 .flexbox{
 	display: flex;
 	align-items: center;
@@ -415,6 +417,7 @@ nav a{
 .text-1{
 	flex-grow: 1;
 }
+/* creates grid with two rows to aligh the loction form and table  */
 .conatiner-3{
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 10px;
