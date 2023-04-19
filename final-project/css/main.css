@@ -251,12 +251,12 @@ p{
 	 background-image: url(../images/vision.jpg);
 }
 /* using position absolute to place the texts on top of the image */
-.vision-text{
+/* .vision-text{
 	position: absolute;
     top: 80px;
     left: 16px;
 	text-align:start;
-}
+} */
 #vision-header{
 	font-size: 30px;
 }
