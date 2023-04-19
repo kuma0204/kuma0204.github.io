@@ -234,11 +234,11 @@ p{
 	padding-bottom: 10px;
 }
     /* bleed */
-.vision{
+.wrapper{
 	max-width: 1200px;
 	height:min-content;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	position: relative;
     text-align: center;
     color: white;
@@ -263,10 +263,10 @@ p{
 	max-width: 100%;
 	height: auto;
 }
-.wrapper{
-	width: 100vw;
-    margin-left: calc(50% - 50vw);
-	height: 70%;
+.vision{
+	/* width: 100vw;
+    margin-left: calc(50% - 50vw); */
+	height: 550px;
 }
 h3{
 	font-weight: bold;
@@ -299,7 +299,7 @@ footer{
 	text-align: start;
 }
 @media screen and (min-width: 760px){
-	.img-container{
+.img-container{
 		background-color:#222;	
 		padding: 20px 50px;
 		max-width: 100%;
@@ -332,6 +332,9 @@ nav ul li{
 nav a{
      padding-top: 30px;
 }
+.banner{
+	max-width: 100%;
+}
 .search{
 	width: 15%;
 	right: 7%;
@@ -339,7 +342,7 @@ nav a{
 }
 .aboutus{
 	background-color: #ffe6ac;
-	width: 100%;
+	width: 1500px;
 	height: auto;
 	padding: 10px;
 }
@@ -352,6 +355,9 @@ nav a{
 
     width:600px;
 	height: 250px;
+}
+.vision{
+	/* float: left; */
 }
 .grid{
 	display: grid;
@@ -442,5 +448,8 @@ div textarea  {
 	grid-column: 2/ span 2;
 	grid-row: 1;
 	
+}
+footer{
+	max-width: 100%;
 }
 }
