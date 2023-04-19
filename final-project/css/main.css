@@ -248,7 +248,7 @@ p{
     text-align: center;
     color: white;
 	 */
-	 background-image: url(images/vision.jpg);
+	 background-image: url(../images/vision.jpg);
 }
 /* using position absolute to place the texts on top of the image */
 .vision-text{
