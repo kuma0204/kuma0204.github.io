@@ -60,11 +60,8 @@ body{
     background-color:#c78c06;
 	padding-top: 10px;
 	border:#222 solid 10px;
-	/* width: 95%; */
+	
 }
-/* .navigation{
-	width: 95%;
-} */
 .container{
     background-color:#222 ;
 	padding: 4px;
@@ -241,22 +238,16 @@ p{
 	padding-bottom: 10px;
 }
     /* bleed */
-.wrapper{
-	/* max-width: 1200px;
-	height:min-content;
-	position: relative;
-    text-align: center;
-    color: white;
-	 */
+.vision-bleed{
+	 background-size: cover;
+	 background-position: center; 
 	 background-image: url(../images/vision.jpg);
 }
 /* using position absolute to place the texts on top of the image */
-/* .vision-text{
-	position: absolute;
-    top: 80px;
-    left: 16px;
+.wrapper{
+	color: white;
 	text-align:start;
-} */
+}
 #vision-header{
 	font-size: 30px;
 }
